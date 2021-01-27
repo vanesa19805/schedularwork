@@ -12,11 +12,7 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
-<!-- addinf luxon scr-->
-    <script src="luxon.js"></script>
-
-<link rel="javascript" href="javascript.js"/>
-
+    
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
@@ -38,57 +34,57 @@
 <!--GIVEN I am using a daily planner to create a schedule-->
 <div class="input-group ">
   <span class="input-group-text" id="basic-addon1">9AM</span>
-  <input type="text" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
-  <button class="input-group-text"><i class="far fa-save" style="color:rebeccapurple"></i></button>
+  <input type="text" id="0" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
+  <button data-id="0"  class="input-group-text"><i class="far fa-save" style="color:rebeccapurple"></i></button>
 </div>
 
 <div class="input-group ">
   <span class="input-group-text" id="basic-addon1">10AM</span>
-  <input type="text" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
-  <button class="input-group-text"><i class="far fa-save" style="color:rebeccapurple"></i></button>
+  <input type="text" id="1" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
+  <button data-id= "1" class="input-group-text"><i class="far fa-save" style="color:rebeccapurple"></i></button>
 </div>
 
 <div class="input-group ">
   <span class="input-group-text" id="basic-addon1">11AM</span>
-  <input type="text" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
-  <button class="input-group-text"><i class="far fa-save" style="color:rebeccapurple;"></i></button>
+  <input type="text"id="2" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
+  <button data-id= "2" class="input-group-text"><i class="far fa-save" style="color:rebeccapurple;"></i></button>
 </div>
 
 <div class="input-group ">
   <span class="input-group-text" id="basic-addon1">12PM</span>
-  <input type="text" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
-  <button class="input-group-text"><i class="far fa-save" style="color:rebeccapurple;"></i></button>
+  <input type="text" id="3" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
+  <button data-id="3" class="input-group-text"><i class="far fa-save" style="color:rebeccapurple;"></i></button>
 </div>
 
 
 <div class="input-group ">
   <span class="input-group-text" id="basic-addon1">1PM</span>
-  <input type="text" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
-  <button class="input-group-text"><i class="far fa-save" style="color:rebeccapurple;"></i></button>
+  <input type="text" id= "4" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
+  <button data-id="4" class="input-group-text"><i class="far fa-save" style="color:rebeccapurple;"></i></button>
 </div>
 
 <div class="input-group ">
   <span class="input-group-text" id="basic-addon1">2pm</span>
-  <input type="text" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
-  <button class="input-group-text"><i class="far fa-save" style="color:rebeccapurple;"></i></button>
+  <input type="text" id= "5" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
+  <button data-id="5" class="input-group-text"><i class="far fa-save" style="color:rebeccapurple;"></i></button>
 </div>
 
 <div class="input-group ">
   <span class="input-group-text" id="basic-addon1">3pm</span>
-  <input type="text" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
-  <button class="input-group-text"><i class="far fa-save" style="color:rebeccapurple;"></i></button>
+  <input type="text" id= "6" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
+  <button data-id="6" class="input-group-text"><i class="far fa-save" style="color:rebeccapurple;"></i></button>
 </div>
 
 <div class="input-group ">
   <span class="input-group-text" id="basic-addon1">4pm</span>
-  <input type="text" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
-  <button class="input-group-text"><i class="far fa-save" style="color:rebeccapurple;"></i></button>
+  <input type="text" id= "7" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
+  <button data-id="7" class="input-group-text"><i class="far fa-save" style="color:rebeccapurple;"></i></button>
 </div>
 
 <div class="input-group ">
   <span class="input-group-text" id="basic-addon1">5pm</span>
-  <input type="text" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
-  <button class="input-group-text"><i class="far fa-save" style="color:rebeccapurple;"></i></button>
+  <input type="text" id="8" class="form-control" placeholder="Event" aria-label="Event" aria-describedby="basic-addon1">
+  <button data-id="8" class="input-group-text"><i class="far fa-save" style="color:rebeccapurple;"></i></button>
 </div>
 
 
@@ -123,5 +119,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+   <script src="./javascript.js"></script>
   </body>
 </html>
